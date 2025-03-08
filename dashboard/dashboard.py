@@ -4,8 +4,8 @@ import plotly.express as px
 from babel.numbers import format_currency
 
 # Dataset
-day_df = pd.read_csv("main_data/day_cleaned_final.csv")
-hour_df = pd.read_csv("main_data/hour_cleaned_final.csv")
+day_df = pd.read_csv("dashboard/main_data/day_cleaned_final.csv")
+hour_df = pd.read_csv("dashboard/main_data/hour_cleaned_final.csv")
 
 # Konversi Kolom Tanggal
 day_df['dteday'] = pd.to_datetime(day_df['dteday'])
