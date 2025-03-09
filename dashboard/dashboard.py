@@ -13,7 +13,7 @@ hour_df['dteday'] = pd.to_datetime(hour_df['dteday'])
 
 # Sidebar
 with st.sidebar:
-    st.image("image.png")
+    st.image("dashboard/image.png")
     st.header("🔍 Filter Data")
     selected_year = st.selectbox("📅 Pilih Tahun", day_df['yr'].map({0: '2011', 1: '2012'}).unique())
 
