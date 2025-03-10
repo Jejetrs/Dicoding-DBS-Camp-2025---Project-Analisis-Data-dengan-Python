@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 from babel.numbers import format_currency
+import seaborn as sns
+sns.set(style='dark')
 
 # Dataset
 day_df = pd.read_csv("dashboard/main_data/day_cleaned_final.csv")
